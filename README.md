@@ -6,7 +6,7 @@
 
 ## ⚡ Features
 
-- Brute-force 4-digit passwords on locked PDFs (0000–9999)
+- Brute-force 4 or more digit passwords on locked PDFs
 - Stops instantly when the correct password is found
 - Saves an unlocked copy of the PDF
 - Simple, readable Python code
