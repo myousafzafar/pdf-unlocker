@@ -28,7 +28,7 @@ sudo apt install python3-pip libqpdf-dev
 pip install pikepdf
 ```
 
-You can either install python3 using the following command *OR* simply install the python extension in Visual Studio Code (VS Code) instead:
+You can either install python3 using the following command *OR* simply install the python extension in Visual Studio Code (VS Code) instead (if you use that) and you can skip the following command:
 ```bash
 sudo apt install python3
 ``` 
