@@ -7,6 +7,7 @@
 ## ⚡ Features
 
 - Brute-force 4 or more digit passwords on locked PDFs (digits are totally adjustable)
+- Fully adjustable password length (just change a single line in the script)
 - Stops instantly when the correct password is found
 - Saves an unlocked copy of the PDF
 - Simple, readable Python code
