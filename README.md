@@ -21,12 +21,17 @@
 
 Make sure you have **Python 3** and `pip` installed.
 
-Install required packages:
+Install required packages in Ubuntu:
 
 ```bash
 sudo apt install python3-pip libqpdf-dev
 pip install pikepdf
 ```
+
+You can either install python3 using the following command *OR* simply install the python extension in Visual Studio Code (VS Code) instead:
+```bash
+sudo apt install python3
+``` 
 
 ---
 
