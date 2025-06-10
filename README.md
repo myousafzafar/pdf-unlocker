@@ -1,13 +1,13 @@
 # 🔓 pdf-unlocker
 
-**pdf-unlocker** is a simple Python script that brute-forces 4 (or more) digit password-protected PDF files using the `pikepdf` library. It tries numeric combinations from 0000 to 9999, stops when the correct password is found, and saves an unlocked copy as `unlocked.pdf`. Designed for educational and ethical use only, this tool is ideal for recovering access to your own secured PDFs. Just install `pikepdf`, place your locked PDF as `file.pdf` in the same directory as script file, and run the script — clean, readable, and easy to extend to less or more digits if needed.
+**pdf-unlocker** is a simple Python script that brute-forces 4-digit (or longer) password-protected PDF files using the `pikepdf` library. It tries numeric combinations from 0000 to 9999, stops when the correct password is found, and saves an unlocked copy as `unlocked.pdf`. Designed for educational and ethical use only, this tool is ideal for recovering access to your own secured PDFs. Just install `pikepdf`, place your locked PDF as `file.pdf` in the same directory as script file, and run the script — clean, readable, and easy to extend to less or more digits if needed.
 
 ---
 
 ## ⚡ Features
 
-- Brute-force 4 or more digit passwords on locked PDFs (digits are totally adjustable)
-- Fully adjustable password length (just change a single line in the script)
+- Brute-force passwords on locked PDFs
+- Fully adjustable password digit length (just change a single line in the script)
 - Stops instantly when the correct password is found
 - Saves an unlocked copy of the PDF
 - Simple, readable Python code
