@@ -1,18 +1,16 @@
-# pdf-unlocker
-Python script to brute-force and unlock 4-digit password-protected PDF files using pikepdf.
+# 🔓 pdf-unlocker
 
-# 🔓 PDF Unlocker (4-Digit Brute Force)
-
-This is a simple Python script that brute-forces password-protected PDF files using 4-digit numeric combinations (0000–9999). Built with the powerful [`pikepdf`](https://github.com/pikepdf/pikepdf) library.
+**pdf-unlocker** is a simple Python script that brute-forces 4 (or more) digit password-protected PDF files using the `pikepdf` library. It tries numeric combinations from 0000 to 9999, stops when the correct password is found, and saves an unlocked copy as `unlocked.pdf`. Designed for educational and ethical use only, this tool is ideal for recovering access to your own secured PDFs. Just install `pikepdf`, place your locked PDF as `file.pdf` in the same directory as script file, and run the script — clean, readable, and easy to extend to less or more digits if needed.
 
 ---
 
 ## ⚡ Features
 
-- Brute-force 4-digit passwords on locked PDFs
-- Stops instantly when password is found
+- Brute-force 4-digit passwords on locked PDFs (0000–9999)
+- Stops instantly when the correct password is found
 - Saves an unlocked copy of the PDF
-- Simple, readable code for educational use
+- Simple, readable Python code
+- For ethical and educational use only!!!
 
 ---
 
@@ -20,10 +18,62 @@ This is a simple Python script that brute-forces password-protected PDF files us
 
 ### ✅ Prerequisites
 
-Make sure you have Python 3 and pip installed.
+Make sure you have **Python 3** and `pip` installed.
 
-Install dependencies:
+Install required packages:
 
 ```bash
-sudo apt install python3-pip
+sudo apt install python3-pip libqpdf-dev
 pip install pikepdf
+```
+
+---
+
+## 📂 Usage
+
+1. Place your locked PDF in the project folder and rename it to `file.pdf`  
+   (or change the filename inside `unlock-pdf.py`).
+
+2. Run the script:
+
+```bash
+python unlock-pdf.py
+```
+
+Once unlocked, the script will:
+- Print the password used in the terminal
+- Save the unlocked version as `unlocked.pdf` in the same directory
+
+---
+
+## 🔐 Disclaimer
+
+This tool is intended **only for ethical and educational purposes**.  
+Do **not** use it to access PDFs without permission.  
+Breaking encryption without authorization may be **illegal** in your jurisdiction.
+
+---
+
+## 📁 File Structure
+
+```
+pdf-unlocker/
+│
+├── unlock-pdf.py       # Main script
+├── file.pdf            # Your locked PDF file (not included)
+├── unlocked.pdf        # Output (if unlocked)
+└── README.md
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests and suggestions are welcome!  
+Feel free to open an issue or submit a PR.
+
+---
+
+## ⭐️ Support
+
+If you found this helpful, consider starring ⭐ this repo or sharing it!
